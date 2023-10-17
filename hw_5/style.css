@@ -1,0 +1,262 @@
+.container {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+header {
+    border-bottom: 1px solid black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul {
+    display: flex;
+}
+header ul li {
+    margin-right: 40px;
+}
+header ul li:last-child {
+    margin-right: 0;
+}
+header ul li a {
+    color: #828282;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+header ul li a:hover {
+    color: black;
+}
+li {
+    list-style-type: none;
+}
+h1 {
+    color: var(--Black, #070707);
+    font-family: Open Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 300px;
+    height: 60px;
+    flex-shrink: 0;
+}
+section.home {
+    margin-top: 12px;
+}
+section.home img {
+    display: flex;
+    width: 970px;
+    height: 387px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    flex-shrink: 0;
+}
+.about {
+    background: #F6F6F6;
+    max-width: 970px;
+    padding: 100px;
+    margin: 0 auto;
+}
+.about h2 {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.about p {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    margin: 0 auto 50px auto;
+}
+.about p:nth-child(1) {
+    max-width: 480px;
+    height: 50px;
+}
+.about p:nth-child(2) {
+    max-width: 406px;
+    height: 50px;
+}
+.about p:nth-child(3) {
+    max-width: 321px;
+    height: 50px;
+}
+.skills h2 {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+section.skills {
+    height: 542px;
+    max-width: 970px;
+    
+}
+.skills p {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.skills div p {
+    color: var(--text, #828282);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    display: flex;
+    justify-content: center;
+    width: 78px;
+    height: 38px;
+    margin: 25px auto auto auto;
+}
+img.star {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    margin-top: 60px;
+}
+img.tool {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+.skills div {
+    display: inline-block;
+    margin-right: 90px;
+    text-align: center;
+    width: 170px;
+    height: 230px;
+    margin-top: 50px;
+}
+div.Figma:last-child {
+    margin-right: 0;
+}
+.portfolio h2 {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.portfolio img {
+    width: 970px;
+    height: 540px;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+.portfolio img:first-child {
+    margin-top: 0;
+}
+.portfolio a{
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    display: flex;
+    width: 200px;
+    max-width: 970px;
+    margin: 0 auto;
+}
+.contacts {
+    height: 400px;
+}
+.contacts h2 {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.contacts p {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 280px;
+    margin: 0 auto 60px auto;
+}
+.text p{
+    color: #828282;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
+    margin: 60px auto auto;
+}
+.profiles img{
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+}
+.contacts a img {
+    margin-top: 0;
+}
+.profiles a img {
+    margin-top: 0;
+}
+.button img:hover {
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
+.profiles img:hover {
+    opacity: 0.5;
+}
+div.button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+div.profiles {
+    justify-content: center;
+    display: flex;
+}
