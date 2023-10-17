@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" method="get" name="Register">
+        <label >
+            <h4>Повне ім'я</h4>
+            <input type="text" name="full_name" placeholder="Повне ім'я" required>
+        </label>
+        <label >
+            <h4>Email</h4>
+            <input type="email" name="email" placeholder="Email" required>
+        </label>
+        <label >
+         <h4>Пароль</h4>
+            <input type="password" name="password" placeholder="Пароль" required>
+        </label>
+        <label >
+            <h4>Пароль ще раз</h4>
+            <input type="password" name="password" placeholder="Пароль" required>
+        </label>
+        <div class="radio">
+            <h4>Стать</h4>
+            <div>
+                <label>
+                    <input name="sex" type="radio" required>
+                    <h4>чоловіча</h4>
+                    </label>
+                <label>
+                    <input name="sex" type="radio" required>
+                    <h4>жіноча</h4>
+                    </label>
+            </div>
+        </div>
+        <label >
+            <h4>Вік</h4>
+            <input type="number" name="age" placeholder="Вік" min="16" required>
+        </label>
+        <label >
+            <h4>Курс</h4>
+            <select name="select">
+                <option>-=Виберіть курс=-</option>
+                <option>Frontend</option>
+                <option>Backend</option>
+            </select>
+        </label>
+        <label >
+            <h4>Повна адреса</h4>
+            <textarea name="massage" placeholder="Країна, регіон, місто/селище, вулиця" rows="5" cols="50" required></textarea>
+        </label>
+        <label class="checkbox">
+            <div>
+                <input type="checkbox" name="checkbox" required>
+            </div>
+            <h4>Я погоджуюся з обробкою персональних даних</h4>
+        </label>
+        <div class="button">
+            <button type="reset">Очистити форму</button>
+            <button type="submit">Зареєструватися</button>
+        </div>
+    </form>
+</body>
+</html>
