@@ -1,0 +1,116 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.screen2 h2 {
+    color: #2F281E;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 539px;
+    margin: 0 auto 30px auto;
+}
+.block1 h3 {
+    color: #2F281E;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 30px auto 16px auto;
+}
+.block1 p {
+    color: #544837;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 250px;
+}
+.screen2 button, .form button {
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #F90;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 1px solid #BCD0E5;
+}
+.screen2 button {
+    margin: 70px auto 74px auto;
+}
+main {
+    margin-top: 100px;
+    margin-bottom: 170px;
+}
+.form h2, .block2 h2 {
+    color: #2F281E;
+    font-family: Gotham;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    width: 280px;
+}
+.form h2 {
+    width: 280px;
+    height: 57px;
+}
+.block2 {
+    max-width: 135px;
+    width: 100%;
+}
+footer img:last-child {
+    margin-left: 12px;
+}
+.block2 nav ul li a {
+    color: #544837;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-decoration: none;
+}
+li {
+    margin-bottom: 15px;
+}
+.block2 h2 {
+    margin-bottom: 30px;
+    max-width: 135px;
+    width: 100%;
+}
+.form input {
+    display: flex;
+    width: 340px;
+    height: 50px;
+    padding: 0px 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    color: #BCD0E5;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 25px auto;
+}
