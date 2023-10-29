@@ -1,0 +1,131 @@
+* {
+    *{transition: all .1s ease-in;}
+}
+body {
+    background: #3B3F45;
+
+}
+header {
+    width: 100%;
+    max-width: 793px;
+    height: 82px;
+    margin: 0 auto;
+    background: #4A4F56;
+}
+header h1 {
+    color: #FF8984;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 19px;
+    width: 276px;
+    height: 28px;
+    margin: 0 247px 0 270px;
+}
+header h2 {
+    color: #FF8984;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    width: 139px;
+    height: 19px;
+    margin: 0 316px 0 338px;
+}
+main {
+    margin-top: 20px;
+}
+form {
+    width: 100%;
+    max-width: 534px;
+    margin: 0 auto;
+}
+h3 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 3px;
+}
+input.list {
+    width: 19px;
+    height: 19px;
+    margin: 12px 16px 14px 12px;
+}
+h4{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h4::before{
+    content: "(";
+}
+h4::after {
+    content: ")";
+}
+div {
+    width: 100%;
+    max-width: 534px;
+    height: 45px;
+}
+div:nth-child(1n) {
+    background: #88839E;
+}
+div:nth-child(2n) {
+    background: #7A7593;
+}
+label {
+    width: 100%;
+    max-width: 534px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+div:hover {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    background: #625E77;
+}
+label:active {
+    background-color: red;
+}
+input:checked~h3 {
+    text-decoration: line-through;
+    color: #9B96AC;
+}
+input:checked~h4 {
+    text-decoration: line-through;
+    color: #9B96AC;
+}
+footer {
+    margin-top: 45px;
+    max-width: 534px;
+    width: 100%;
+    height: 45px;
+    padding-bottom: 45px;
+}
+button {
+    max-width: 534px;
+    width: 100%;
+    height: 45px;
+    color: #FF8984;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #4A4F56;
+}
+button::after {
+    content: ":)";
+}
