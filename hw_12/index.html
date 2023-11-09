@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>HW12</title>
+</head>
+<body>
+        <section class="account">
+            <form action="#" method="get" name="Register">
+                <h2>Create an Account</h2>
+                <div class="name">
+                    <label>
+                        <h4>First Name</h4>
+                        <input type="text" name="first name" required>
+                    </label>
+                    <label>
+                        <h4>Last Name</h4>
+                        <input type="text" name="last name" required>
+                    </label>
+                </div>
+                <div class="email">
+                    <label>
+                        <h4>E-mail</h4>
+                        <input type="email" name="email" required>
+                        <p>We'll never share your email with anyone else</p>
+                    </label>
+                </div>
+                <div class="sex">
+                        <label>
+                            <div class="wrapper_radio">
+                                <input name="sex" type="radio" required>
+                                <div class="check"></div>
+                            </div>
+                            <h4>Male</h4>
+                        </label>
+                    <label>
+                        <div class="wrapper_radio">
+                            <input name="sex" type="radio" required>
+                            <div class="check"></div>
+                        </div>
+                        <h4>Female</h4>
+                    </label>
+                </div>
+                <div class="location">
+                    <label>
+                        <h4>Country</h4>
+                        <div class="wrapper">
+                            <select name="select" required>
+                                <option>Select</option>
+                                <option>Ukraine</option>
+                                <option>Nigeria</option>
+                                <option>Kenya</option>
+                                <option>Uganda</option>
+                                <option>Niger</option>
+                            </select>
+                            <img src="image/Arrow.svg" alt="img">
+                        </div>
+                    </label>
+                    <label>
+                        <h4>City</h4>
+                        <input type="text" name="city" required>
+                    </label>
+                </div>
+                <button type="submit">Sign Up</button>
+                <div class="text">
+                    <p>By clicking the 'Sign Up' button, you confirm that you accept our 
+                    <a class="sors1" href="#">Terms of Use</a> and <a class="sors1" href="#">Privacy Policy</a> .</p>
+                </div>
+                <hr>
+                <div class="source">
+                    <a class="sors2" href="#">Have an account?</a>
+                    <a class="sors3" href="#">Log In</a>
+                </div>
+            </form>
+        </section>
+        <section class="profile">
+            <form action="#" method="get" name="Register">
+                <h2>Profile</h2>
+                <div class="imgcontent">
+                    <div class="left">
+                        <img src="image/main photo.png" alt="photo">
+                    </div>
+                    <div class="right">
+                        <label>
+                            <div class="wrapper">
+                                <input type="text" name="add photo" required>
+                                <img src="image/Photo Camera.svg" alt="img">
+                            </div>
+                            <button class="trash"><img src="image/Trash.svg" alt="img"></button>
+                        </label>
+                        <p>Up to 1 MB (300x300 px)</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <label>
+                        <h4>Name</h4>
+                        <input type="text" name="name" required>
+                    </label>
+                    <label>
+                        <h4>E-mail</h4>
+                        <input type="email" name="e-mail" required>
+                    </label>
+                </div>
+                <div class="content">
+                    <label>
+                        <h4>Country</h4>
+                        <div class="wrapper">
+                            <select name="select" required>
+                                <option>Select</option>
+                                <option>Ukraine</option>
+                                <option>Nigeria</option>
+                                <option>Kenya</option>
+                                <option>Uganda</option>
+                                <option>Niger</option>
+                            </select>
+                            <img src="image/Arrow.svg" alt="img">
+                        </div>
+                    </label>
+                    <label>
+                        <h4>City</h4>
+                        <input type="text" name="city2" required>
+                    </label>
+                </div>
+                <div class="content">
+                    <label>
+                        <h4>Zip Code</h4>
+                        <input type="number" name="zip code" required>
+                    </label>
+                    <label>
+                        <h4>Phone Number</h4>
+                        <input type="number" name="phone namber" required>
+                    </label>
+                </div>
+                <button class="update">Update</button>
+            </form>
+        </section>
+</body>
+</html>
