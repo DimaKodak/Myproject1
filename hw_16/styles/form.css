@@ -1,0 +1,48 @@
+span::before {
+    content: url('../svg/search.svg');
+    padding: 12px;
+}
+form {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+div.header_form {
+    width: 100%;
+    max-width: 647px;
+    padding: 10px;
+}
+input {
+    max-width: 647px;
+    width: 100%;
+    height: 60px;
+    flex-shrink: 0;
+    padding: 20px 0 20px 36px;
+}
+form button {
+    width: 139px;
+    height: 52px;
+    background: #5373FD;
+    border: none;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    position: absolute;
+    top: 4px;
+    right: 5px;
+}
+header button:hover {
+    background: #4F95DA;
+    transition: 1s ease-in-out;
+}
+section.block_why button:hover {
+    background: #4F95DA;
+    transition: 1s ease-in-out;
+}
+section.block_house button:hover {
+    background: #4F95DA;
+    transition: 1s ease-in-out;
+}
+section.block_nature button:hover {
+    background: #4F95DA;
+    transition: 1s ease-in-out;
+}
