@@ -156,11 +156,13 @@
         </div>
     </footer>
 <script>
-    let burger = document.querySelector('.burger') 
-    let header = document.querySelector('.nav_content')
+    let burger = document.querySelector('.burger');
+    let header = document.querySelector('.nav_content');
+    let headerNav = document.querySelector('.header_nav');
     burger.addEventListener('click', function (){
         burger.classList.toggle('active');
         header.classList.toggle('active');
+        headerNav.classList.toggle('active');
     })
 </script>
 </body>

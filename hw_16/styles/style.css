@@ -235,15 +235,22 @@ footer nav ul li a:hover {
 
     div.nav_content.active {
         display: grid;
-        grid-template-columns: 185px 1fr;
-        grid-template-areas: "logo nav";
+        grid-template-columns: 1fr 185px;
+        grid-template-areas: "logo burger"
+                             "nav nav";
     }
     a.logo.active {
-        grid-area: 'logo';
+        grid-area: logo;
     }
-    section.header_nav nav.active {
-        grid-area: 'nav';
+    section.header_nav.active {
+        height: auto;
+    }
+    section.header_nav .nav_content.active nav {
+        grid-area: nav;
         display: flex;
+    }
+    section.header_nav .burger.active {
+        grid-area: burger;
     }
     section.header_nav nav ul.active {
         display: flex;
