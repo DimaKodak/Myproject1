@@ -1,0 +1,64 @@
+header section.header_nav {
+    position: sticky;
+    bottom: 0;
+}
+section.header_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 862px;
+}
+section.header_img img.backgroung_1 {
+    width: 100%;
+    height: 862px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+section.block_why {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 704px;
+}
+section.block_why img.backgroung_2 {
+    width: 100%;
+    height: 704px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+div.icon_box {
+    position: relative;
+    background: #333;
+}
+div.svg_line {
+    position: absolute;
+    top: 51px;
+    left: 214px;
+}
+section.block_house, section.block_nature {
+    position: relative;
+    height: 684px;
+    width: 100%;
+}
+section.block_house img.background_3,
+ section.block_nature img.background_4 {
+    width: 100%;
+    height: 684px;
+    position: absolute;
+    z-index: -1;
+}
+section.block_tourist {
+    position: relative;
+    height: 680px;
+    width: 100%;
+}
+section.block_tourist img.background_5 {
+    width: 100%;
+    height: 680px;
+    position: absolute;
+    z-index: -1;
+}
